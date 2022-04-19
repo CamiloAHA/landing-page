@@ -55,6 +55,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 50px;
+    margin-bottom: 60px;
 }
 
 .content {
@@ -65,7 +66,8 @@
 .section1 h3 {
     margin: 40px;
     color: #1F2937;
-    font-size: 32px;
+    font-size: 36px;
+    font-weight: 900;
     text-align: center;
 }
 
@@ -84,12 +86,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .center p {
     width: 150px;
     color: #1F2937;
+    font-weight: 300;
     text-align: center;
+    margin: 8px;
 }
 
 .imagenes .cuadro {
@@ -108,15 +113,31 @@
 
 .section2 {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.content .section2 div{ 
+.section3 {
+    background-color: white;
+    display: flex;
+}
+
+.section4{
+    background-color: #1F2937;
+}
+
+.content .section2 div {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
     text-align: center;
     margin-top: 50px;
+    width: 800px;
+    text-align: left;
 }
 
 .links {
