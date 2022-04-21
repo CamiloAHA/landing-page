@@ -16,32 +16,36 @@
     color: #E5E7EB;
     padding-bottom: 80px;
     padding-top: 10px;
+    justify-content: center;
+    gap: 40px;
     align-items: center;
 }
 
 .header .logo {
     font-size: 24px;
+    width: 320px;
     color: #F9FAF8;
     font-weight: bold;
-    flex: 1;
     margin: 5px;
     padding: 1px;
-    margin-left: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
 }
 
 .header .links {
     text-align: right;
+    width: 600px;
     padding: 1px;
     margin: 5px;
-    margin-right: 140px;
     gap: 30px;
     display: flex;
+    justify-content: right;
 }
 
 .header div p {
     padding: 1px;
     margin: 5px;
-    margin-left: 200px;
     width: 450px;
 }
 
@@ -53,13 +57,13 @@
 .header div button {
     background-color: #3882F6;
     padding: 8px 20px;
-    margin-left: 200px;
     margin-top: 10px;
     width: 130px;
     border: none;
     border-radius: 8px;
     font-weight: bold;
     box-sizing: border-box;
+    margin-bottom: 50px;
 }
 
 .header .header-img {
@@ -69,7 +73,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 .content {
@@ -112,7 +116,7 @@
     height: 160px;
     width: 160px;
     border-radius: 10px;
-    border: 4px solid #3882F6;
+    border: 5px solid #3882F6;
 }
 
 .section2 {
@@ -158,7 +162,7 @@
     border-radius: 10px;
 }
 
-.section3 .titulo{
+.section3 .titulo {
     font-weight: bold;
     font-size: 24px;
 }
@@ -167,7 +171,7 @@
     background-color: #3882F6;
     width: 130px;
     padding: 5px 15px;
-    border: 2px solid  #F9FAF8;
+    border: 2px solid #F9FAF8;
     border-radius: 8px;
     font-weight: bold;
     box-sizing: border-box;
